@@ -1,0 +1,4 @@
+Modelo,Parámetros entrenables,Épocas,Train acc,Val acc,Test acc,Test loss,Gap train-val
+C_mobilenetv2,164742,12,0.9609,1.0,1.0,0.0617,-0.0391
+B_profunda_bn,1240550,18,0.8513,0.9123,0.9153,0.3142,-0.061
+A_baseline,4288454,19,0.8297,0.8947,0.8983,0.4797,-0.065

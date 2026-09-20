@@ -1,0 +1,25 @@
+# --- Datasets pesados: NO subir a GitHub (limite de 100 MB por archivo) ---
+# tw_source.csv pesa ~239 MB; las imagenes de frutas, varios cientos de MB.
+datos/*.csv
+datos/frutas_verduras/
+datos/fruit-and-vegetable-image-recognition/
+
+# --- Modelos entrenados ---
+salidas/problema2/*.keras
+salidas/problema2/*.h5
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
